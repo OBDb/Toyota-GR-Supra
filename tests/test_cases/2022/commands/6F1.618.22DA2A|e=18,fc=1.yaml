@@ -1,0 +1,26 @@
+command_id: 6F1.618.22DA2A|e=18,fc=1
+test_cases:
+- response: |-
+    618F1100762DA2A0000
+    618F1210000FFFFFFFF
+  expected_values:
+    SUPRA_TQ_CNVRT_RPM: 0
+    SUPRA_TRANS_SHAFT_RPM: 0
+- response: |-
+    618F1100762DA2A01FE
+    618F1210061FFFFFFFF
+  expected_values:
+    SUPRA_TQ_CNVRT_RPM: 510
+    SUPRA_TRANS_SHAFT_RPM: 97
+- response: |-
+    618F1100762DA2A0831
+    618F121018FFFFFFFFF
+  expected_values:
+    SUPRA_TQ_CNVRT_RPM: 2097
+    SUPRA_TRANS_SHAFT_RPM: 399
+- response: |-
+    618F1100762DA2A187B
+    618F1210749FFFFFFFF
+  expected_values:
+    SUPRA_TQ_CNVRT_RPM: 6267
+    SUPRA_TRANS_SHAFT_RPM: 1865

@@ -1,0 +1,27 @@
+command_id: 6F1.618.22DA23|e=18,fc=1
+test_cases:
+- response: |-
+    618F1100762DA230000
+    618F12138A4FFFFFFFF
+  expected_values:
+    SUPRA_ODO: 116000
+- response: |-
+    618F1100762DA230000
+    618F12138A6FFFFFFFF
+  expected_values:
+    SUPRA_ODO: 116016
+- response: |-
+    618F1100762DA230000
+    618F12138A7FFFFFFFF
+  expected_values:
+    SUPRA_ODO: 116024
+- response: |-
+    618F1100762DA230000
+    618F12138BDFFFFFFFF
+  expected_values:
+    SUPRA_ODO: 116200
+- response: |-
+    618F1100762DA230000
+    618F12138BEFFFFFFFF
+  expected_values:
+    SUPRA_ODO: 116208
