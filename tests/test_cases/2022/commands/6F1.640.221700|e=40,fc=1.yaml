@@ -1,0 +1,22 @@
+command_id: 6F1.640.221700|e=40,fc=1
+test_cases:
+- response: |-
+    640F110076217000000
+    640F1215A78FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 23160
+- response: |-
+    640F110076217000000
+    640F1215AA0FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 23200
+- response: |-
+    640F110076217000000
+    640F1215ABEFFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 23230
+- response: |-
+    640F110076217000000
+    640F1215BA4FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 23460

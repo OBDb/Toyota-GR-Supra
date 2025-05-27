@@ -1,0 +1,20 @@
+command_id: 6F1.660.22D10D|e=60,fc=1
+test_cases:
+- response: |-
+    660F1100B62D10D0001
+    660F121C5200001C520
+  expected_values:
+    SUPRA_ODO1: 116000
+    SUPRA_ODO2: 116000
+- response: |-
+    660F1100B62D10D0001
+    660F121C5F00001C5F0
+  expected_values:
+    SUPRA_ODO1: 116208
+    SUPRA_ODO2: 116208
+- response: |-
+    660F1100B62D10D0001
+    660F121C5FA0001C5FA
+  expected_values:
+    SUPRA_ODO1: 116218
+    SUPRA_ODO2: 116218

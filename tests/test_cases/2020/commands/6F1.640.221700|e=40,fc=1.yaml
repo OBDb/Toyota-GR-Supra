@@ -1,0 +1,32 @@
+command_id: 6F1.640.221700|e=40,fc=1
+test_cases:
+- response: |-
+    640F110076217000001
+    640F1215AB4FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 88756
+- response: |-
+    640F110076217000001
+    640F1215ACDFFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 88781
+- response: |-
+    640F110076217000001
+    640F1215AD7FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 88791
+- response: |-
+    640F110076217000001
+    640F1215B21FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 88865
+- response: |-
+    640F110076217000001
+    640F1215B95FFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 88981
+- response: |-
+    640F110076217000001
+    640F1215C1BFFFFFFFF
+  expected_values:
+    SUPRA_ODO_2: 89115
