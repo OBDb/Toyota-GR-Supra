@@ -6,6 +6,6 @@ test_cases:
 - response: 612F105624AB111FF
   expected_values:
     SUPRA_VSS2: 46.07
-- response: 612F105624AB1394E
+- response: 612F105624AB143B7
   expected_values:
-    SUPRA_VSS2: 146.7
+    SUPRA_VSS2: 173.35
