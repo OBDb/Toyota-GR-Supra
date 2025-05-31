@@ -17,6 +17,6 @@ test_cases:
     SUPRA_ODO_2: 23230
 - response: |-
     640F110076217000000
-    640F1215BC2FFFFFFFF
+    640F1215C62FFFFFFFF
   expected_values:
-    SUPRA_ODO_2: 23490
+    SUPRA_ODO_2: 23650
