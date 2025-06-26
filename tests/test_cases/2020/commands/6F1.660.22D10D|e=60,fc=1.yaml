@@ -1,26 +1,26 @@
 command_id: 6F1.660.22D10D|e=60,fc=1
 test_cases:
-- response: |-
-    660F1100B62D10D0001
-    660F1215ABA00015ABA
-  expected_values:
+- expected_values:
     SUPRA_ODO1: 88762
     SUPRA_ODO2: 88762
-- response: |-
+  response: |-
     660F1100B62D10D0001
-    660F1215ABF00015ABF
-  expected_values:
+    660F1215ABA00015ABA
+- expected_values:
     SUPRA_ODO1: 88767
     SUPRA_ODO2: 88767
-- response: |-
+  response: |-
     660F1100B62D10D0001
-    660F1215AC000015AC0
-  expected_values:
+    660F1215ABF00015ABF
+- expected_values:
     SUPRA_ODO1: 88768
     SUPRA_ODO2: 88768
-- response: |-
+  response: |-
     660F1100B62D10D0001
-    660F1215C2200015C22
-  expected_values:
+    660F1215AC000015AC0
+- expected_values:
     SUPRA_ODO1: 89122
     SUPRA_ODO2: 89122
+  response: |-
+    660F1100B62D10D0001
+    660F1215C2200015C22

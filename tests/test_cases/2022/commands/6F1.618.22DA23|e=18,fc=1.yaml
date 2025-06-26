@@ -1,17 +1,17 @@
 command_id: 6F1.618.22DA23|e=18,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    SUPRA_ODO: 23160
+  response: |-
     618F1100762DA230000
     618F1210B4FFFFFFFFF
-  expected_values:
-    SUPRA_ODO: 23160
-- response: |-
+- expected_values:
+    SUPRA_ODO: 23168
+  response: |-
     618F1100762DA230000
     618F1210B50FFFFFFFF
-  expected_values:
-    SUPRA_ODO: 23168
-- response: |-
+- expected_values:
+    SUPRA_ODO: 1000000
+  response: |-
     618F1100762DA23FFFF
     618F121FFFFFFFFFFFF
-  expected_values:
-    SUPRA_ODO: 1000000
