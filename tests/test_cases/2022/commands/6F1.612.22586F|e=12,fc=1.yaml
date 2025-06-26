@@ -1,14 +1,14 @@
 command_id: 6F1.612.22586F|e=12,fc=1
 test_cases:
-- response: 612F10562586F03E3
-  expected_values:
+- expected_values:
     SUPRA_EOP: 3
-- response: 612F10562586F0EFF
-  expected_values:
-    SUPRA_EOP: 14
-- response: 612F10562586F1000
-  expected_values:
+  response: 612F10562586F03E3
+- expected_values:
+    SUPRA_EOP: 13
+  response: 612F10562586F0DFF
+- expected_values:
     SUPRA_EOP: 16
-- response: 612F10562586F1627
-  expected_values:
+  response: 612F10562586F1000
+- expected_values:
     SUPRA_EOP: 22
+  response: 612F10562586F1627

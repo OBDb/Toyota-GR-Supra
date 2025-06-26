@@ -1,27 +1,37 @@
 command_id: 6F1.618.22DA23|e=18,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    SUPRA_ODO: 55424
+  response: |-
+    618F1100762DA230000
+    618F1211B10FFFFFFFF
+- expected_values:
+    SUPRA_ODO: 55456
+  response: |-
+    618F1100762DA230000
+    618F1211B14FFFFFFFF
+- expected_values:
+    SUPRA_ODO: 116000
+  response: |-
     618F1100762DA230000
     618F12138A4FFFFFFFF
-  expected_values:
-    SUPRA_ODO: 116000
-- response: |-
+- expected_values:
+    SUPRA_ODO: 116016
+  response: |-
     618F1100762DA230000
     618F12138A6FFFFFFFF
-  expected_values:
-    SUPRA_ODO: 116016
-- response: |-
+- expected_values:
+    SUPRA_ODO: 116024
+  response: |-
     618F1100762DA230000
     618F12138A7FFFFFFFF
-  expected_values:
-    SUPRA_ODO: 116024
-- response: |-
+- expected_values:
+    SUPRA_ODO: 116200
+  response: |-
     618F1100762DA230000
     618F12138BDFFFFFFFF
-  expected_values:
-    SUPRA_ODO: 116200
-- response: |-
+- expected_values:
+    SUPRA_ODO: 116208
+  response: |-
     618F1100762DA230000
     618F12138BEFFFFFFFF
-  expected_values:
-    SUPRA_ODO: 116208
