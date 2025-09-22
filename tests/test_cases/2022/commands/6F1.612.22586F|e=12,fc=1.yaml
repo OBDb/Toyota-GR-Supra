@@ -10,5 +10,5 @@ test_cases:
     SUPRA_EOP: 16
   response: 612F10562586F1000
 - expected_values:
-    SUPRA_EOP: 22
-  response: 612F10562586F1627
+    SUPRA_EOP: 24
+  response: 612F10562586F1840
