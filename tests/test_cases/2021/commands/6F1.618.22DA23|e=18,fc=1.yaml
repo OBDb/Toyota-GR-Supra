@@ -35,3 +35,8 @@ test_cases:
   response: |-
     618F1100762DA230000
     618F12138BEFFFFFFFF
+- expected_values:
+    SUPRA_ODO: 1000000
+  response: |-
+    618F1100762DA23FFFF
+    618F121FFFFFFFFFFFF
