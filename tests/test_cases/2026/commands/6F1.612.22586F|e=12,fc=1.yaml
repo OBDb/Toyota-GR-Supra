@@ -1,0 +1,26 @@
+command_id: 6F1.612.22586F|e=12,fc=1
+test_cases:
+- expected_values:
+    SUPRA_EOP: 3
+  response: 612F10562586F0382
+- expected_values:
+    SUPRA_EOP: 3
+  response: 612F10562586F038E
+- expected_values:
+    SUPRA_EOP: 9
+  response: 612F10562586F0978
+- expected_values:
+    SUPRA_EOP: 9
+  response: 612F10562586F09B5
+- expected_values:
+    SUPRA_EOP: 9
+  response: 612F10562586F09CD
+- expected_values:
+    SUPRA_EOP: 10
+  response: 612F10562586F0A16
+- expected_values:
+    SUPRA_EOP: 10
+  response: 612F10562586F0A22
+- expected_values:
+    SUPRA_EOP: 10
+  response: 612F10562586F0A3B

@@ -1,0 +1,17 @@
+command_id: 6F1.618.22DA2E|e=18,fc=1
+test_cases:
+- expected_values:
+    SUPRA_GEAR: 0
+  response: 618F10562DA2E0000
+- expected_values:
+    SUPRA_GEAR: 0
+  response: 618F10562DA2E00FF
+- expected_values:
+    SUPRA_GEAR: 3
+  response: 618F10562DA2E0303
+- expected_values:
+    SUPRA_GEAR: 4
+  response: 618F10562DA2E0403
+- expected_values:
+    SUPRA_GEAR: 5
+  response: 618F10562DA2E0503
