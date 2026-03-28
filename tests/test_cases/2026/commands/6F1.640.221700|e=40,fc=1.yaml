@@ -5,3 +5,8 @@ test_cases:
   response: |-
     640F110076217000000
     640F1211808FFFFFFFF
+- expected_values:
+    SUPRA_ODO_2: 6182
+  response: |-
+    640F110076217000000
+    640F1211826FFFFFFFF
