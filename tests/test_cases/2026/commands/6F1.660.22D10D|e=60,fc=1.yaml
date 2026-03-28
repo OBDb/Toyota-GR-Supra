@@ -1,0 +1,8 @@
+command_id: 6F1.660.22D10D|e=60,fc=1
+test_cases:
+- expected_values:
+    SUPRA_ODO1: 6161
+    SUPRA_ODO2: 6161
+  response: |-
+    660F1100B62D10D0000
+    660F121181100001811
