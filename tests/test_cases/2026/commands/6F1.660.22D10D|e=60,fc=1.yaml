@@ -6,3 +6,9 @@ test_cases:
   response: |-
     660F1100B62D10D0000
     660F121181100001811
+- expected_values:
+    SUPRA_ODO1: 6190
+    SUPRA_ODO2: 6190
+  response: |-
+    660F1100B62D10D0000
+    660F121182E0000182E
