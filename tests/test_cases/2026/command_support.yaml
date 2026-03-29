@@ -83,4 +83,5 @@ unsupported_commands_by_ecu:
   - 7E0.015C:EOT
   "7E1":
   - 7E1.7E9.0101
+  - 7E1.7E9.010D
   - 7E1.7E9.0121
