@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D107|e=60,fc=1
+test_cases:
+- expected_values:
+    SUPRA_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    SUPRA_VSS: 5
+  response: 660F10562D1070032
+- expected_values:
+    SUPRA_VSS: 33.3
+  response: 660F10562D107014D
+- expected_values:
+    SUPRA_VSS: 41.9
+  response: 660F10562D10701A3

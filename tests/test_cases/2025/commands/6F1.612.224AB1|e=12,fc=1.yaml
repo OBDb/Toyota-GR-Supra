@@ -1,0 +1,17 @@
+command_id: 6F1.612.224AB1|e=12,fc=1
+test_cases:
+- expected_values:
+    SUPRA_VSS2: 0
+  response: 612F105624AB10000
+- expected_values:
+    SUPRA_VSS2: 1.89
+  response: 612F105624AB100BD
+- expected_values:
+    SUPRA_VSS2: 3.77
+  response: 612F105624AB10179
+- expected_values:
+    SUPRA_VSS2: 12.64
+  response: 612F105624AB104F0
+- expected_values:
+    SUPRA_VSS2: 49.79
+  response: 612F105624AB11373
