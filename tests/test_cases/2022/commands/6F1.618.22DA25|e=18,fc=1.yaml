@@ -4,5 +4,5 @@ test_cases:
     SUPRA_EOT: 0
   response: 618F10562DA250030
 - expected_values:
-    SUPRA_EOT: 255
-  response: 618F10562DA25FFFF
+    SUPRA_EOT: 114
+  response: 618F10562DA2500A2

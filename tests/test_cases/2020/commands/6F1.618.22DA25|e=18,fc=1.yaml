@@ -4,17 +4,17 @@ test_cases:
     SUPRA_EOT: 0
   response: 618F10562DA250030
 - expected_values:
-    SUPRA_EOT: 0
+    SUPRA_EOT: 105
   response: 618F10562DA250099
 - expected_values:
-    SUPRA_EOT: 0
+    SUPRA_EOT: 106
   response: 618F10562DA25009A
 - expected_values:
-    SUPRA_EOT: 0
+    SUPRA_EOT: 108
   response: 618F10562DA25009C
 - expected_values:
-    SUPRA_EOT: 0
+    SUPRA_EOT: 109
   response: 618F10562DA25009D
 - expected_values:
-    SUPRA_EOT: 0
+    SUPRA_EOT: 111
   response: 618F10562DA25009F
