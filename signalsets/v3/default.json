@@ -100,6 +100,10 @@
   "signals": [
     {"id": "SUPRA_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 191.25, "mul": 0.75, "unit": "percent" }, "name": "Engine load"}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5822"}, "freq": 30,
+  "signals": [
+    {"id": "SUPRA_EOT_DME", "path": "Engine", "fmt": { "len": 8, "max": 207, "min": -48, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature (engine computer)"}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "582C"}, "freq": 1,
   "signals": [
     {"id": "SUPRA_LAMBDA_2", "path": "Engine", "fmt": { "len": 16, "max": 15.99, "div": 4096, "nullmax": 15.99, "unit": "scalar" }, "name": "Lambda 2"}
